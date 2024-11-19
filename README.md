@@ -8,10 +8,10 @@
    Conoce más sobre mi experiencia, intereses y objetivos como desarrolladora/diseñadora.
 
 2. **Proyectos destacados**  
-   He incluido 5 proyectos que muestran mis habilidades y áreas de trabajo:
-   - Proyecto 1: [Frac-helper]  
-   - Proyecto 2: [Shelf apparel]  
-   - Proyecto 3: [IntegraLab]  
+   He incluido 3 proyectos que muestran mis habilidades y áreas de trabajo:
+   - Proyecto 1: Frac-helper
+   - Proyecto 2: Shelf apparel
+   - Proyecto 3: IntegraLab
 
    Cada proyecto incluye una breve descripción, capturas de pantalla y un enlace para verlo en vivo o explorar su código.
 
