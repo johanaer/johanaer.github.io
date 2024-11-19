@@ -55,6 +55,8 @@ html {
 /* ********************************** */
 .container-hero {
 	background-color: var(--background-color);
+	display:flexbox;
+	
 }
 
 .hero {

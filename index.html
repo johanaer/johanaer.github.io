@@ -1,268 +1,267 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Portafolio</title>
-	<link rel="stylesheet" href="./css/styles.css" />
-	<link rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
 
-	<header>
-		<div class="container-hero">
-			<div class="container hero">
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
 
 
-				<div class="container-logo">
-					<i class="fa-solid fa-laptop"></i>
-					<h1 class="logo"><a href="./index.html">JohanaER</a></h1>
-				</div>
+                <div class="container-logo">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h1 class="logo"><a href="./index.html">JohanaER</a></h1>
+                </div>
 
-				<div class="container-user">
-					<label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"></i></label>
-					<input type="checkbox" id="toggle">
-
-
-				</div>
-			</div>
-		</div>
-		<div class="container-nav">
-			<nav>
+                <div class="container-user" >
+                    <label for="toggle" id="label_toggle"><i class="fa-solid fa-moon"  ></i></label>
+                    <input type="checkbox" id="toggle">
 
 
-				<ul class="sidebar">
-
-					<li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-								viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
-								<path
-									d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-							</svg></a></li>
-					<li><a href="#inicio">Inicio</a></li>
-					<li><a href="#sobre-mi">Sobre mi</a></li>
-					<li><a href="#servicios">Servicios</a></li>
-					<li><a href="#mi-trabajo">Mi trabajo</a></li>
-					<li><a href="#contact">Contacto</a></li>
-					<li><a href="./proyectos.html">Proyectos</a></li>
-				</ul>
-				<ul>
-					<span class="material-symbols-outlined">
-						cruelty_free
-					</span>
-					<li class="hideOnMobile"><a href="#inicio">Inicio</a></li>
-					<li class="hideOnMobile"><a href="#sobre-mi">Sobre mi</a></li>
-					<li class="hideOnMobile"><a href="#servicios">Servicios</a></li>
-					<li class="hideOnMobile"><a href="#mi-trabajo">Mi trabajo</a></li>
-					<li class="hideOnMobile"><a href="#contact">Contacto</a></li>
-					<li class="hideOnMobile"><a href="./proyectos.html">Proyectos</a></li>
-					<li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
-								height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
-								<path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-							</svg></a></li>
-				</ul>
-
-		</div>
+                </div>
+            </div>
+        </div>
+        <div class="container-nav">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#mi-trabajo">Mi trabajo</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="./proyectos.html">Proyectos</a></li>
+                </ul>
+                <ul>
+                    <span class="material-symbols-outlined">
+                        cruelty_free
+                    </span>
+                    <li class="hideOnMobile"><a href="#inicio">Inicio</a></li>
+                    <li class="hideOnMobile"><a href="#sobre-mi">Sobre mi</a></li>
+                    <li class="hideOnMobile"><a href="#servicios">Servicios</a></li>
+                    <li class="hideOnMobile"><a href="#mi-trabajo">Mi trabajo</a></li>
+                    <li class="hideOnMobile"><a href="#contact">Contacto</a></li>
+                    <li class="hideOnMobile"><a href="./proyectos.html">Proyectos</a></li>
+                    <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a></li>
+                </ul>
+            </nav>
+        </div>
 
 
 
-	</header>
+    </header>
 
-	<section class="banner" id="inicio">
-		<div class="content-banner">
-			<p>Hola! Soy Laura Johana</p>
-			<h2>Desarrolladora web <br />Frontend</h2>
+    <section class="banner" id="inicio">
+        <div class="content-banner">
+            <p>Hola! Soy Laura Johana</p>
+            <h2>Desarrolladora web <br />Frontend</h2>
 
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<main class="main-content" id="sobre-mi">
-		<h1 class="heading-1">Sobre mi</h1>
-		<div class="content-img">
-			<img src="./img/johana.png" alt="Foto" />
-			<p class="texto-descripcion">
-				Soy Johana, ingeniera en sistemas computacionales y apasionada por la
-				tecnología y la programación. Me encanta aprender y explorar nuevas
-				herramientas, como el desarrollo web y el uso de Linux en Fedora. Soy
-				una persona creativa y detallista, y actualmente estoy trabajando en
-				una página web. Me gusta estar en constante evolución, aprendiendo y
-				creciendo en lo que me apasiona.
-			</p>
-		</div>
+    <main class="main-content" id="sobre-mi">
+        <h1 class="heading-1">Sobre mi</h1>
+        <div class="content-img">
+            <img src="./img/johana.png" alt="Foto" />
+            <p class="texto-descripcion">
+                Soy Johana, ingeniera en sistemas computacionales y apasionada por la
+                tecnología y la programación. Me encanta aprender y explorar nuevas
+                herramientas, como el desarrollo web y el uso de Linux en Fedora. Soy
+                una persona creativa y detallista, y actualmente estoy trabajando en
+                una página web. Me gusta estar en constante evolución, aprendiendo y
+                creciendo en lo que me apasiona.
+            </p>
+        </div>
 
-		<section class="container container-features">
-			<div class="card-feature">
-				<i class="fa-solid fa-code"></i>
-				<div class="feature-content">
-					<span>Lenguajes</span>
-					<p>HTML, CSS, Javascript, C#, C++, Java.</p>
-				</div>
-			</div>
-			<div class="card-feature">
-				<i class="fa-solid fa-graduation-cap"></i>
-				<div class="feature-content">
-					<span>Educación</span>
-					<p>
-						Ingeniera en sistemas computacionales, Tecnica en programación
-					</p>
-				</div>
-			</div>
-			<div class="card-feature">
-				<i class="fa-solid fa-briefcase"></i>
-				<div class="feature-content">
-					<span>Proyectos</span>
-					<p>He trabajado en mas de 5 proyectos</p>
-				</div>
-			</div>
-		</section>
-		<h1 class="heading-1">Herramientas que utilizo</h1>
-		<div class="grid text-center">
-			<div class="g-col-6"><img src="./img/vsc.png" alt="vsc" /></div>
-			<div class="g-col-6"><img src="./img/github.png" alt="github" /></div>
-			<div class="g-col-6"><img src="./img/Git.png" alt="Git" /></div>
-			<div class="g-col-6"><img src="./img/figma.png" alt="figma" /></div>
-		</div>
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="fa-solid fa-code"></i>
+                <div class="feature-content">
+                    <span>Lenguajes</span>
+                    <p>HTML, CSS, Javascript, C#, C++, Java.</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div class="feature-content">
+                    <span>Educación</span>
+                    <p>
+                        Ingeniera en sistemas computacionales, Tecnica en programación
+                    </p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-briefcase"></i>
+                <div class="feature-content">
+                    <span>Proyectos</span>
+                    <p>He trabajado en mas de 5 proyectos</p>
+                </div>
+            </div>
+        </section>
+        <h1 class="heading-1">Herramientas que utilizo</h1>
+        <div class="grid text-center">
+            <div class="g-col-6"><img src="./img/vsc.png" alt="vsc" /></div>
+            <div class="g-col-6"><img src="./img/github.png" alt="github" /></div>
+            <div class="g-col-6"><img src="./img/Git.png" alt="Git" /></div>
+            <div class="g-col-6"><img src="./img/figma.png" alt="figma" /></div>
+        </div>
 
-		<section class="container top-services" id="servicios">
-			<h1 class="heading-1">Mis servicios</h1>
-			<div class="container-services">
-				<div class="card-services category-disweb">
-					<p>Diseño web</p>
+        <section class="container top-services" id="servicios">
+            <h1 class="heading-1">Mis servicios</h1>
+            <div class="container-services">
+                <div class="card-services category-disweb">
+                    <p>Diseño web</p>
 
-				</div>
-				<div class="card-services category-mobile">
-					<p>Mobile app</p>
+                </div>
+                <div class="card-services category-mobile">
+                    <p>Mobile app</p>
 
-				</div>
-				<div class="card-services category-uiux">
-					<p>UI/ UX design</p>
+                </div>
+                <div class="card-services category-uiux">
+                    <p>UI/ UX design</p>
 
-				</div>
-			</div>
-		</section>
-
-
-		<section class="container top-trabajos" id="mi-trabajo">
-			<h1 class="heading-1">Mi trabajo</h1>
-			<p class="texto-descripcion">¡Bienvenido a mi portafolio de desarrollo web! Explora una colección de
-				proyectos que muestran mi experiencia en el desarrollo front-end.</p>
+                </div>
+            </div>
+        </section>
 
 
-			<section class="projects" id="projects">
-				<div class="prote">
-					<h2>Proyectos</h2>
-				</div>
-				<div class="project-cards">
-					<div class="cardpro">
-						<img src="./img/logofrac.png" alt="Proyecto 1">
-						<h3>Frac-helper</h3>
-						<p>Diseño de una app de matematicas para niños</p>
-					</div>
-					<div class="cardpro">
-						<img src="./img/shelfapparel.png" alt="Proyecto 2">
-						<h3>Shelf apparel</h3>
-						<p>Sistema de inventario de ropa</p>
-					</div>
-					<div class="cardpro">
-						<img src="./img/logoIL-removebg-preview.png" alt="Proyecto 3">
-						<h3>IntegraLab</h3>
-						<p> Portal y App para la gestión y reservación de salas
-							y espacios de laboratorio dentro del TecNM Campus Querétaro</p>
-					</div>
+        <section class="container top-trabajos" id="mi-trabajo">
+            <h1 class="heading-1">Mi trabajo</h1>
+            <p class="texto-descripcion">¡Bienvenido a mi portafolio de desarrollo web! Explora una colección de
+                proyectos que muestran mi experiencia en el desarrollo front-end.</p>
 
-				</div>
-				<div class="contenedor-boton">
-					<a href="proyectos.html" class="btn-ver-mas">Ver más</a>
-				</div>
-			</section>
 
-			<section class="gallery">
-				<img src="img/desarrolloweb2.jpg" alt="Gallery Img1" class="gallery-img-1" /><img
-					src="img/desarrolloweb3.jpg" alt="Gallery Img2" class="gallery-img-2" /><img
-					src="img/desarrolloweb1.jpg" alt="Gallery Img3" class="gallery-img-3" /><img
-					src="img/desarrolloweb5.jpeg" alt="Gallery Img4" class="gallery-img-4" /><img
-					src="img/desarrolloweb4.jpg" alt="Gallery Img5" class="gallery-img-5" />
-			</section>
-			<section class="skills" id="skills">
-				<div class="habi">
+            <section class="projects" id="projects">
+                <div class="prote">
+                    <h2>Proyectos</h2>
+                </div>
+                <div class="project-cards">
+                    <div class="cardpro">
+                        <img src="./img/logofrac.png" alt="Proyecto 1">
+                        <h3>Frac-helper</h3>
+                        <p>Diseño de una app de matematicas para niños</p>
+                    </div>
+                    <div class="cardpro">
+                        <img src="./img/shelfapparel.png" alt="Proyecto 2">
+                        <h3>Shelf apparel</h3>
+                        <p>Sistema de inventario de ropa</p>
+                    </div>
+                    <div class="cardpro">
+                        <img src="./img/logoIL-removebg-preview.png" alt="Proyecto 3">
+                        <h3>IntegraLab</h3>
+                        <p> Portal y App para la gestión y reservación de salas
+                            y espacios de laboratorio dentro del TecNM Campus Querétaro</p>
+                    </div>
 
-					<h2>Habilidades</h2>
-				</div>
-				<div class="skills-list">
-					<div class="skill">
-						<h3>HTML</h3>
-						<div class="skill-bar">
-							<div class="skill-level" style="width: 90%;"></div>
-						</div>
-					</div>
-					<div class="skill">
-						<h3>CSS</h3>
-						<div class="skill-bar">
-							<div class="skill-level" style="width: 80%;"></div>
-						</div>
-					</div>
-					<div class="skill">
-						<h3>Javascript</h3>
-						<div class="skill-bar">
-							<div class="skill-level" style="width: 60%;"></div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="contact" id="contact">
-				<h2>Contacto</h2>
-				<p>Me encantaría conocer su opinión. Si tienes alguna pregunta,
-					comentario u opinión, utiliza el siguiente formulario.</p>
-				<form action="#">
-					<input type="text" name="name" placeholder="Nombre" required>
-					<input type="email" name="email" placeholder="Correo Electrónico" required>
-					<textarea name="message" placeholder="Mensaje" required></textarea>
-					<button type="submit">Enviar</button>
-				</form>
-			</section>
-	</main>
-	<footer class="bg-body-tertiary text-center">
-		<!-- Grid container -->
-		<div class="container p-4 pb-0">
-			<!-- Section: Social media -->
-			<section class="mb-4">
-				<!-- Facebook -->
-				<a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
-					href="https://www.facebook.com/joana.eugeniorodriguez?mibextid=LQQJ4d" role="button"><i
-						class="fab fa-facebook-f"></i></a>
-				<!-- Instagram -->
-				<a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
-					href="https://www.instagram.com/johana.er?igsh=MjU3aXN1anl3dDZk&utm_source=qr" role="button"><i
-						class="fab fa-instagram"></i></a>
+                </div>
+                <div class="contenedor-boton">
+                    <a href="proyectos.html" class="btn-ver-mas">Ver más</a>
+                </div>
+            </section>
 
-				<!-- Linkedin -->
-				<a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
-					href="http://linkedin.com/in/laura-johana-eugenio-91a6a61a3" role="button"><i
-						class="fab fa-linkedin-in"></i></a>
-				<!-- Github -->
-				<a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
-					href="https://github.com/johanaer" role="button"><i class="fab fa-github"></i></a>
-			</section>
-			<!-- Section: Social media -->
-		</div>
-		<!-- Grid container -->
+            <section class="gallery">
+                <img src="img/desarrolloweb2.jpg" alt="Gallery Img1" class="gallery-img-1" /><img
+                    src="img/desarrolloweb3.jpg" alt="Gallery Img2" class="gallery-img-2" /><img
+                    src="img/desarrolloweb1.jpg" alt="Gallery Img3" class="gallery-img-3" /><img
+                    src="img/desarrolloweb5.jpeg" alt="Gallery Img4" class="gallery-img-4" /><img
+                    src="img/desarrolloweb4.jpg" alt="Gallery Img5" class="gallery-img-5" />
+            </section>
+            <section class="skills" id="skills">
+                <div class="habi">
 
-		<!-- Copyright -->
-		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-			© 2024 Copyright: Todos los derechos reservados. Johana
-		</div>
-		<!-- Copyright -->
-	</footer>
+                    <h2>Habilidades</h2>
+                </div>
+                <div class="skills-list">
+                    <div class="skill">
+                        <h3>HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>Javascript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <h2>Contacto</h2>
+                <p>Me encantaría conocer su opinión. Si tienes alguna pregunta,
+                    comentario u opinión, utiliza el siguiente formulario.</p>
+                <form action="#">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo Electrónico" required>
+                    <textarea name="message" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4" >
+                <!-- Facebook -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998; text-decoration: none; " 
+                    href="https://www.facebook.com/joana.eugeniorodriguez?mibextid=LQQJ4d" role="button"><i
+                        class="fab fa-facebook-f "></i></a>
+                <!-- Instagram -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac; text-decoration: none;"
+                    href="https://www.instagram.com/johana.er?igsh=MjU3aXN1anl3dDZk&utm_source=qr" role="button"><i
+                        class="fab fa-instagram"></i></a>
 
-	<script src="./js/script.js"></script>
-	<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-		crossorigin="anonymous"></script>
+                <!-- Linkedin -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca; text-decoration: none;"
+                    href="http://linkedin.com/in/laura-johana-eugenio-91a6a61a3" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333; text-decoration: none;"
+                    href="https://github.com/johanaer" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright: Todos los derechos reservados. Johana
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
